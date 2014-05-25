@@ -1,0 +1,7 @@
+parameters:
+#    kabeuki_ecommerce.example.class: Kabeuki\EcommerceBundle\Example
+
+services:
+#    kabeuki_ecommerce.example:
+#        class: %kabeuki_ecommerce.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

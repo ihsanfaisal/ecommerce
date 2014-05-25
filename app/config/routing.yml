@@ -1,0 +1,4 @@
+kabeuki_ecommerce:
+    resource: "@KabeukiEcommerceBundle/Resources/config/routing.yml"
+    prefix:   /
+
