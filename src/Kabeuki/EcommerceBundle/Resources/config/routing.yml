@@ -1,3 +1,8 @@
-kabeuki_ecommerce_homepage:
+kabeuki_ecommerce_hellopage:
     pattern:  /hello/{name}
-    defaults: { _controller: KabeukiEcommerceBundle:Default:index }
+    defaults: { _controller: "KabeukiEcommerceBundle:Default:index" }
+
+kabeuki_ecommerce_homepage:
+    resource: "@KabeukiEcommerceBundle/Controller/HomeController.php"
+    type:     annotation
+    prefix:   /
