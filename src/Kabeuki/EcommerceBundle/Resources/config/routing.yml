@@ -6,3 +6,8 @@ kabeuki_ecommerce_homepage:
     resource: "@KabeukiEcommerceBundle/Controller/HomeController.php"
     type:     annotation
     prefix:   /
+
+kabeuki_ecommerce_category:
+    resource: "@KabeukiEcommerceBundle/Controller/CategoryController.php"
+    type:     annotation
+    prefix:   /
