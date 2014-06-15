@@ -64,6 +64,11 @@ assetic:
            inputs:
                - %kernel.root_dir%/../vendor/fortawesome/font-awesome/fonts/fontawesome-webfont.woff
            output: fonts/fontawesome-webfont.woff
+        bootstrap:
+            inputs:
+                - "%kernel.root_dir%/../vendor/twbs/bootstrap/dist/css/bootstrap.min.css"
+
+            output: css/bootstrap.css
 
 
 # Doctrine Configuration

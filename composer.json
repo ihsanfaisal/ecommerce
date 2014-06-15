@@ -21,7 +21,8 @@
         "sensio/framework-extra-bundle" : "2.3.*",
         "sensio/generator-bundle" : "2.3.*",
         "incenteev/composer-parameter-handler" : "~2.0",
-        "fortawesome/font-awesome": "4.1.0"
+        "fortawesome/font-awesome" : "4.1.0",
+        "twbs/bootstrap": "dev-deps"
     },
     "scripts" : {
         "post-install-cmd" : [
@@ -54,4 +55,3 @@
         }
     }
 }
-
