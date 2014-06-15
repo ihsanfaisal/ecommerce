@@ -5,9 +5,29 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        {% stylesheets
+            '@KabeukiEcommerceBundle/Resources/public/css/bootstrap.min.css'
+        %}
+
+        <link rel="stylesheet" href="{{ asset_url }}" />
+
+        {% endstylesheets %}
+
+        <link href="{{ asset('/css/font.css') }}" rel="stylesheet">
+
+        {% javascripts
+            '@KabeukiEcommerceBundle/Resources/public/js/bootstrap.min.js'
+            '@KabeukiEcommerceBundle/Resources/public/js/jquery.js'
+        %}
+
+         <script src="{{ asset_url }}"></script>
+
+        {% endjavascripts %}
+
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+        {% endblock %}
     </body>
 </html>

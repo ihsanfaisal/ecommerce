@@ -9,3 +9,6 @@
 /vendor/
 /bin/
 /composer.phar
+/web/fonts/
+/web/css/
+/web/js/
